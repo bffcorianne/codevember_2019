@@ -2,8 +2,7 @@
 
 # had to install devtools and then also this package. got binary vs compilation
 
-devtools::install_github("cutterkom/generativeart")
-
+j
 
 # 
 # set the paths

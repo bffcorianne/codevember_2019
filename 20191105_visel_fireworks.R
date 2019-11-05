@@ -47,14 +47,14 @@ p <- crossing(x = 1:30, nesting(t = 1:10, y = .5^(seq(t)))) %>%
     shadow_wake(0.5) +
     theme_dark()
 
-p  
+ani_p <- animate(p)
 
+# write to disk
+anim_save(filename = 'fireworks.gif') 
 
 # current issue: the hrbrthemes package doesn't work? isn't in cran? "
 # image not found" error. 
 # reasonable start, want to remove axes. 
-  
-  
   
   
   
