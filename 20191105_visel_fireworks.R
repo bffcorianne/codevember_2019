@@ -48,6 +48,11 @@ p <- crossing(x = 1:30, nesting(t = 1:10, y = .5^(seq(t)))) %>%
     theme_dark()
 
 p  
+
+
+# current issue: the hrbrthemes package doesn't work? isn't in cran? "
+# image not found" error. 
+# reasonable start, want to remove axes. 
   
   
   
